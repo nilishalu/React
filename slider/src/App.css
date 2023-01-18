@@ -1,0 +1,51 @@
+.owl-carousel {
+  position: relative;
+}
+
+.owl-nav {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  width: 100%;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: 4%;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: 4%;
+}
+
+.owl-dots {
+  position: absolute;
+  z-index: 1;
+  bottom: 8%;
+  left: 48%;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: black;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: white;
+    color: black;
+    text-decoration: none; 
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: black;
+ }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: white; }
